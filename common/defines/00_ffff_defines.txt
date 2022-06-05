@@ -1,0 +1,11 @@
+
+
+
+	NGameplay = {
+		
+
+		LEADER_POOL_SIZE		= 0				# Each leader pool will consist of this many leaders
+		
+	}
+
+	

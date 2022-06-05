@@ -1,0 +1,134 @@
+@leader_unity_upkeep = 2
+
+admiral = {
+	can_lead_navy = yes
+	max_trait_points = 1
+	can_have_traits = yes
+	resources = {
+		category = leader_admirals
+		cost = {
+			unity = 1
+			multiplier = owner.value:leader_cost
+		}
+		upkeep = {
+			trigger = {
+				has_leader_upkeep = yes
+			}
+			unity = @leader_unity_upkeep
+		}
+	}
+
+	default_category = admiral
+	assignment_cooldown = 3
+}
+
+general = {
+	can_lead_army = yes
+	max_trait_points = 1
+	can_have_traits = yes
+	resources = {
+		category = leader_generals
+		cost = {
+			unity = 1
+			multiplier = owner.value:leader_cost
+		}
+		upkeep = {
+			trigger = {
+				has_leader_upkeep = yes
+			}
+			unity = @leader_unity_upkeep
+		}
+	}
+
+	default_category = general
+	assignment_cooldown = 3
+}
+
+scientist = {
+	can_research = yes
+	can_lead_army = yes
+	can_be_envoy = yes
+	can_lead_navy = yes
+	max_trait_points = 1
+	can_have_traits = yes
+	resources = {
+		category = leader_scientists
+		
+		upkeep = {
+			leader_political_power = 1
+			multiplier = Root.value:leader_political_power_value
+		}
+		upkeep = {
+			leader_opinion = 1
+			multiplier = Root.value:leader_opinion_value
+		}
+		upkeep = {
+			diplomacy_skill = 1
+			multiplier = Root.value:diplomacy_skill_value
+		}
+		upkeep = {
+			warfare_skill = 1
+			multiplier = Root.value:warfare_skill_value
+		}
+		upkeep = {
+			subterfuge_skill = 1
+			multiplier = Root.value:subterfuge_skill_value
+		}
+		upkeep = {
+			statecraft_skill = 1
+			multiplier = Root.value:statecraft_skill_value
+		}
+		upkeep = {
+			research_skill = 1
+			multiplier = Root.value:research_skill_value
+		}
+	}
+	default_category = scientist
+	assignment_cooldown = 3
+}
+
+governor = {
+	can_govern_planet = yes
+	max_trait_points = 1
+	can_have_traits = yes
+	resources = {
+		category = leader_governors
+		cost = {
+			unity = 1
+			multiplier = owner.value:leader_cost
+		}
+		upkeep = {
+			trigger = {
+				has_leader_upkeep = yes
+			}
+			unity = @leader_unity_upkeep
+		}
+		produces = {
+			trigger = {
+				is_idle = no
+				exists = owner
+				owner = {
+					has_valid_civic = civic_feudal_realm
+				}
+			}
+			unity = 1
+			multiplier = trigger:has_skill
+		}
+	}
+	default_category = governor
+	assignment_cooldown = 3
+}
+
+ruler = {
+	can_rule_empire = yes
+	max_trait_points = 2
+	can_have_traits = yes
+	default_category = ruler
+}
+
+envoy = {
+	can_be_envoy = yes
+	default_category = envoy
+	assignment_cooldown = 360
+	can_have_traits = no
+}

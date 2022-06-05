@@ -1,0 +1,20 @@
+randomize_value = { #TODO proper weighting with random lists
+	set_variable = {
+		which = $VALUE$
+		value = 0
+	}
+	while = {
+		count = 5 # change this if you want to go higher)
+		multiply_variable = {
+			which = $VALUE$
+			value = 2
+		}
+		random = {
+			chance = 50
+			change_variable = {
+				which = $VALUE$
+				value = 1
+			}
+		}
+	}
+}

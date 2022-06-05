@@ -1,0 +1,65 @@
+### Skills
+
+diplomacy_skill = {
+	tradable = no
+	tooltip_decimals = 0
+	ai_weight = {
+		weight = 0
+	}
+}
+
+warfare_skill = {
+	tradable = no
+	tooltip_decimals = 0
+	ai_weight = {
+		weight = 0
+	}
+}
+
+subterfuge_skill = {
+	tradable = no
+	tooltip_decimals = 0
+	ai_weight = {
+		weight = 0
+	}
+}
+
+statecraft_skill = {
+	tradable = no
+	tooltip_decimals = 0
+	ai_weight = {
+		weight = 0
+	}
+}
+
+research_skill = {
+	tradable = no
+	tooltip_decimals = 0
+	ai_weight = {
+		weight = 0
+	}
+}
+
+
+### Opinion
+
+leader_opinion = {
+	tradable = no
+	tooltip_decimals = 0
+	ai_weight = {
+		weight = 0
+	}
+	
+}
+
+### Power
+
+leader_political_power = {
+	tradable = no
+	tooltip_decimals = 0
+	ai_weight = {
+		weight = 0
+	}
+	
+}
+

@@ -1,0 +1,56 @@
+diplomacy_skill_value = {
+	base = 0
+	modifier = {
+		add = Root.diplomacy_skill
+		is_scope_type = leader
+	}
+}
+
+warfare_skill_value = {
+	base = 0
+	modifier = {
+		add = Root.warfare_skill
+		is_scope_type = leader
+	}
+}
+
+subterfuge_skill_value = {
+	base = 0
+	modifier = {
+		add = Root.subterfuge_skill
+		is_scope_type = leader
+	}
+}
+
+statecraft_skill_value = {
+	base = 0
+	modifier = {
+		add = Root.statecraft_skill
+		is_scope_type = leader
+	}
+}
+
+research_skill_value = {
+	base = 0
+	modifier = {
+		add = Root.research_skill
+		is_scope_type = leader
+	}
+}
+
+leader_political_power_value = {
+	base = 0
+	modifier = {
+		add = Root.leader_political_power
+		is_scope_type = leader
+	}
+	mult = 50
+}
+
+leader_opinion_value = {
+	base = 0
+	modifier = {
+		add = Root.leader_opinion
+		is_scope_type = leader
+	}
+}

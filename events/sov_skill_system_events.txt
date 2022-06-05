@@ -1,0 +1,24 @@
+namespace = sov_skills
+
+# fired on gamestart to initialize skills
+
+country_event = {
+	id = sov_skills.1
+	#hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_country_type = default
+		# TODO account for other country types
+	}
+	immediate = {
+		FROM = {
+			randomize_value = {VALUE = diplomacy_skill}
+			randomize_value = {VALUE = warfare_skill}
+			randomize_value = {VALUE = subterfuge_skill}
+			randomize_value = {VALUE = statecraft_skill}
+			randomize_value = {VALUE = research_skill}
+			randomize_value = {VALUE = leader_political_power}
+			randomize_value = {VALUE = leader_opinion}
+		}
+	}
+}	

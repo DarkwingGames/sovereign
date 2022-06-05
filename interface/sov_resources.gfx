@@ -1,0 +1,163 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_evt_acot_greetings"
+		texturefile = "gfx/event_pictures/mlg_supra_event.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+
+	### Leader_opinion
+	spriteType = {
+		name = "GFX_resource_leader_opinion"
+		textureFile = "gfx/interface/icons/resources/leader_opinion.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_leader_opinion"
+		textureFile = "gfx/interface/icons/resources/leader_opinion.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_leader_opinion_large"
+		textureFile = "gfx/interface/icons/resources/leader_opinion_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_leader_opinion_grey"
+		textureFile = "gfx/interface/icons/resources/leader_opinion_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_leader_opinion_grey"
+		textureFile = "gfx/interface/icons/resources/leader_opinion_grey.dds"
+	}
+
+	### Diplomacy
+	spriteType = {
+		name = "GFX_resource_diplomacy_skill"
+		textureFile = "gfx/interface/icons/resources/diplomacy_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_diplomacy_skill"
+		textureFile = "gfx/interface/icons/resources/diplomacy_skill.dds"
+	}	
+	spriteType = {
+		name = "GFX_resource_diplomacy_skill_large"
+		textureFile = "gfx/interface/icons/resources/diplomacy_skill_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_diplomacy_skill_grey"
+		textureFile = "gfx/interface/icons/resources/diplomacy_skill_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_diplomacy_skill_grey"
+		textureFile = "gfx/interface/icons/resources/diplomacy_skill_grey.dds"
+	}
+
+	### warfare
+
+	spriteType = {
+		name = "GFX_resource_warfare_skill"
+		textureFile = "gfx/interface/icons/resources/warfare_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_warfare_skill"
+		textureFile = "gfx/interface/icons/resources/warfare_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_warfare_skill_large"
+		textureFile = "gfx/interface/icons/resources/warfare_skill_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_warfare_skill_grey"
+		textureFile = "gfx/interface/icons/resources/warfare_skill_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_warfare_skill_grey"
+		textureFile = "gfx/interface/icons/resources/warfare_skill_grey.dds"
+	}
+	### subterfuge
+	spriteType = {
+		name = "GFX_resource_subterfuge_skill"
+		textureFile = "gfx/interface/icons/resources/subterfuge_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_subterfuge_skill"
+		textureFile = "gfx/interface/icons/resources/subterfuge_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_subterfuge_skill_large"
+		textureFile = "gfx/interface/icons/resources/subterfuge_skill_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_subterfuge_skill_grey"
+		textureFile = "gfx/interface/icons/resources/subterfuge_skill_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_subterfuge_skill_grey"
+		textureFile = "gfx/interface/icons/resources/subterfuge_skill_grey.dds"
+	}
+
+	### statecraft
+	spriteType = {
+		name = "GFX_resource_statecraft_skill"
+		textureFile = "gfx/interface/icons/resources/statecraft_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_statecraft_skill"
+		textureFile = "gfx/interface/icons/resources/statecraft_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_statecraft_skill_large"
+		textureFile = "gfx/interface/icons/resources/statecraft_skill_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_statecraft_skill_grey"
+		textureFile = "gfx/interface/icons/resources/statecraft_skill_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_statecraft_skill_grey"
+		textureFile = "gfx/interface/icons/resources/statecraft_skill_grey.dds"
+	}
+
+	### research
+	spriteType = {
+		name = "GFX_resource_research_skill"
+		textureFile = "gfx/interface/icons/resources/research_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_research_skill"
+		textureFile = "gfx/interface/icons/resources/research_skill.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_research_skill_large"
+		textureFile = "gfx/interface/icons/resources/research_skill_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_research_skill_grey"
+		textureFile = "gfx/interface/icons/resources/research_skill_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_research_skill_grey"
+		textureFile = "gfx/interface/icons/resources/research_skill_grey.dds"
+	}
+
+	### leader political power
+	spriteType = {
+		name = "GFX_resource_leader_political_power"
+		textureFile = "gfx/interface/icons/resources/leader_political_power.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_leader_political_power"
+		textureFile = "gfx/interface/icons/resources/leader_political_power.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_leader_political_power_large"
+		textureFile = "gfx/interface/icons/resources/leader_political_power_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_leader_political_power_grey"
+		textureFile = "gfx/interface/icons/resources/leader_political_power_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_text_resource_leader_political_power_grey"
+		textureFile = "gfx/interface/icons/resources/leader_political_power_grey.dds"
+	}
+}

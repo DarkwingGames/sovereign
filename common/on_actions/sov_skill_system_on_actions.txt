@@ -1,0 +1,6 @@
+on_leader_spawned = {
+	events = {
+		sov_skills.1
+	}
+	
+}
